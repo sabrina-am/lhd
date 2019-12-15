@@ -31,7 +31,7 @@ public class register extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    protected void doGet(HttpServletRequest r, HttpServletResponse s)
+    protected void doPost(HttpServletRequest r, HttpServletResponse s)
             throws ServletException, IOException {
         String nom= r.getParameter("nom");
         String prenom= r.getParameter("prenom");
