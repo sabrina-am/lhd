@@ -196,7 +196,7 @@ label {
     <div class="signup__overlay"></div>
   </div>
   <div class="container__child signup__form">
-    <form action="login" method="Get">
+    <form action="login" method="Post">
       <div class="form-group">
         <label for="nom">Nom d'utilisateur</label>
         <input class="form-control" type="text" name="username" id="username" placeholder="Nom d'utilisateur" required />
